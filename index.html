@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/images/astronaut_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <title>Interestelar</title>
+</head>
+
+<body class="">
+    <audio id="themeSong" src="./assets/sounds/Interstellar-theme-song.mp3"></audio>
+    <header>
+        <div class="container">
+            <div class="content">
+            <img src="./assets/images/logo_interestelar.png" alt="Interestelar logo">
+                <h1>
+                    Explorando o cosmos com Interestelar: <br />Viagem além do tempo e espaço
+                </h1>
+                <p>
+                    Prepare-se para atravessar buracos de minhoca, desafiar as leis da física emergulhar <br />nas emoções humanas mais profundas.
+                </p>
+            <div class="movie-theme-sound">
+        <i class="fa-solid fa-music"></i>
+                <a href="https://youtu.be/UDVtMYqUAyw?si=gEAvtost44ZjNRJl" style="text-decoration: underline;" target="_blank" rel="noopener noreferrer">Ouça aqui completo.</a>
+    </div>
+            </div>
+        </div>
+    </header>
+    <nav class="nav-mobile ">
+      <div class="menu" id="menu">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+        <a href="./index.html" id="">Início</a>
+        <a href="./planetas.html" id="">Planetas</a>
+        <a href="./form.html" id="">Formulário</a>
+    </nav>
+    <main>
+        <div class="container">
+            <section>
+                <h2>A jornada</h2>
+                <p class="subtitle">
+                    Representa a missão da tripulação de buscar <br /> um novo lar  para a humanidade.
+                </p>
+                <p class="paragraph">
+                    Nossa jornada vai além das estrelas. Inspirados pela busca incansável da equipe de Interestelar, buscamos explorar os limites do conhecimento e da imaginação, conectando ciência, emoção e propósito humano. Cada passo dessa missão é impulsionado pela conexão entre ciência e sentimento, razão e fé,descobertas e sacrifícios.
+                </p>
+            </section>
+            <section>
+                <h2>Horizonte de possibilidades</h2>
+                <p class="subtitle">
+                    Alusão ao horizonte de eventos dos buracos negros<br />+ visão de futuro da humanidade.
+                </p>
+                <p class="paragraph">
+                    Acreditamos em um futuro onde coragem e esperança guiam nossas decisões. Assim como Cooper olhou para o desconhecido, visualizamos um universo onde o conhecimento e o amor coexistem para moldar novos mundos.
+                </p>
+            </section>
+            <section class="galery">
+                <h2>Galeria de imagens</h2>
+                <div class="images">
+                    <div class="card">
+                        <img src="./assets/images/gargantua.png" alt="Gargantua - O buraco negro Interestelar">
+                            <p>Gargantua – O Buraco Negro</p>
+                        </img>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/images/miller 1.png" alt="Planeta Miller Interestelar">
+                            <p>Planeta Miller – O Planeta da Água</p>
+                        </img>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/images/mann.jpg" alt="Planeta Mann Interestelar">
+                            <p>Planeta Mann – O Planeta Gelado</p>
+                        </img>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/images/tars.jpg" alt="Tars Interestelar">
+                            <p>TARS – O Robô Modular</p>
+                        </img>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/images/endurance.jpg" alt="Endurance Interestelar">
+                            <p>Endurance – A Nave Espacial</p>
+                        </img>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/images/bookshelf.jpg" 
+                             alt="Cena com a estante Interestelar">
+                            <p>Relógio e Tempo</p>
+                        </img>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/images/campos_de_milho.jpg" alt="Campos de Milho na Terra Interestelar">
+                            <p>Campos de Milho na Terra</p>
+                        </img>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/images/viagem_endurance.png" alt="Viagem pela Gargantua Interestelar">
+                            <p>Viagem pela Gargantua</p>
+                        </img>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>© 2025 Todos os direitos reservados.</p>
+            <p class="">Desenvolvido por 
+                <a  href="https://www.brenordev.com.br" 
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="./assets/images/logo_brenordev.png" alt="Brenordev logo">
+                </a>
+            </p>
+        </div>
+    </footer>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script>
+    window.addEventListener("DOMContentLoaded", () => {
+      const audio = document.getElementById("themeSong")
+      const playAudio = () => {
+        audio.play().catch(error => {
+          console.log("Autoplay bloqueado pelo navegador:", error);
+        });
+      };
+      audio.volume = .5
+      playAudio();
+      document.addEventListener("click", playAudio, { once: true });
+    });
+  </script>
+      <script src="./script/main.js"></script>
+
+</html>

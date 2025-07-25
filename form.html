@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/images/form_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="./assets/images/logo_interestelar.png" alt="Interestelar logo">
+                <h1>
+                Formulário
+                </h1>
+                <p>
+                    Envie seus dados e embarque em uma experiência que transcende o tempo e o espaço.
+                    Assim como os exploradores de Interestelar, essa missão convida você a cruzar os limites do desconhecido em busca de novos mundos. Cada resposta é um passo rumo ao inexplorado — onde ciência, emoção e destino se entrelaçam. Você está pronto para fazer parte dessa jornada?
+                </p>
+        </div>
+    </header>
+   <nav class="nav-mobile ">
+      <div class="menu" id="menu">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+        <a href="./index.html" id="">Início</a>
+        <a href="./planetas.html" id="">Planetas</a>
+        <a href="./form.html" id="">Formulário</a>
+    </nav>
+    <main>
+
+        <form action="">
+            <h2>Cadastro </h2>
+            <label for="">Nome</label>
+            <input type="text" placeholder="Digite seu nome completo">
+            <label for="">Data de nascimento</label>
+            <input type="date">
+            <label for="">Telefone para contato</label>
+            <input type="number">
+            <label for="">Número de identificação</label>
+            <input type="number">
+            <label for="region">Selecione sua região:</label>
+               <select class="custom-select">
+            <option value="">Escolha sua região</option>
+            <option value="norte">Norte</option>
+            <option value="nordeste">Nordeste</option>
+            <option value="centro-oeste">Centro-Oeste</option>
+            <option value="sudeste">Sudeste</option>
+            <option value="sul">Sul</option>
+            </select>
+            <label class="terms">
+                <input type="checkbox" name="terms" required>
+                <p>Eu li e aceito os termos de uso.</p>
+            </label>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer>
+        <div class="container">
+            <p>© 2025 Todos os direitos reservados.</p>
+            <p class="">Desenvolvido por <a href="https://www.brenordev.com.br" target="_blank"
+                    rel="noopener noreferrer"><img src="./assets/images/logo_brenordev.png" alt="Brenordev logo"></a>
+            </p>
+        </div>
+    </footer>
+      <script src="./script/main.js"></script>
+
+</body>
+</html>
