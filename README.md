@@ -1,3 +1,5 @@
+<img src="./capa_readme.png" alt="Capa readme">
+
 # 💻 Exercício 03
 #### Curso Desenvolvedor Full Stack Júnior | +PraTI e Codifica
 
